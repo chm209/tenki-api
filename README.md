@@ -3,10 +3,6 @@
 
 # 構成図（アーキテクチャ）
 
-#### コード構成図
-![アーキテクチャ](./resources/images/テンキ.png)
-
-##### [TABIHOUDAI](https://github.com/chm209/tabihoudai)との構成図（アーキテクチャ）
 ![アーキテクチャ](./resources/images/アーキテクチャ.png)
 
 ーー
@@ -14,11 +10,14 @@
 ## 使っているもの：
 1. Kotlin
 2. Jsoup
-3. Gson
-4. jsonString
-5. regex
+3. regex
+4. Spring Boot
 
-** Dev/Tool
+#### Dev/Tool
 1. IntelliJ
-2. Ubuntu Cron
-3. VS Code
+
+#### Deploy
+1. Ubuntu Server
+2. Nginx
+3. Docker
+4. Jenkins
